@@ -1,0 +1,18 @@
+# project root
+PROJECT_ROOT="project_root_directory_path"
+
+#dataset name
+DATASET_PATH=diabetes.csv
+
+# Output directories
+MODEL_DIR=MODEL_DIR
+LOG_DIR=logs
+
+#files
+MODEL_NAME="diabetes_pipeline_trained.joblib"
+LOG_NAME="app.log"
+
+# training config
+TRAGET_COL="Outcome"
+TEST_SIZE=0.2
+RANDOM_STATE=42
